@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "producto1",
+    "description": "zapatillas",
+    "price": 50000,
+    "code": "13579"
+  },
+  {
+    "id": 2,
+    "title": "producto2",
+    "description": "remeras",
+    "price": 25000,
+    "code": "246810"
+  },
+  {
+    "id": 3,
+    "title": "producto3",
+    "description": "botines",
+    "price": 45000,
+    "code": "35769"
+  },
+  {
+    "id": 4,
+    "title": "producto4",
+    "description": "panaatalones",
+    "price": 15000,
+    "code": "112535"
+  },
+  {
+    "id": 5,
+    "title": "producto5",
+    "description": "musculosas",
+    "price": 10000,
+    "code": "589745"
+  },
+  {
+    "title": "producto 11",
+    "price": 200,
+    "code": "abc",
+    "id": 6
+  }
+]
