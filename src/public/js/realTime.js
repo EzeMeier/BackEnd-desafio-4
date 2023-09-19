@@ -29,12 +29,6 @@ socketClient.on("productsArray", (dataProducts)=>{
     productList.innerHTML=productsElms;
 });
 
-document.getElementById("delete-btn").addEventListener("click", function () {
-    const deleteidinput = document.getElementById("id");
-    const deleteid = parseInt(deleteidinput.value);
-    socketClient.emit("deleteProduct", deleteid);
-    deleteidinput.value = "";
-  });
-socketClient.on("productosupdated", (obj) => {
-  updateProductList(obj);
-});
+const deleteProduct = (productId)=>{
+    console.log(productId);
+};
